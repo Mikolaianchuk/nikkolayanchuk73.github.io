@@ -1,0 +1,137 @@
+.social-icons-3 {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: right;
+}
+.social-icons-3 a img {
+    width: 15px;
+    height: 15px;
+    margin-top: 11px;
+}
+.social-icons-3 a {
+    text-decoration:none;
+    position: relative;
+    display: block;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    margin: 10px;
+    transition: 0.3s;
+}
+.social-icons-3 a::before {
+    content: "";
+    position: absolute;
+    left: 3px;
+    top: 20px;
+    height: 10%;
+    width: 100%;
+    transform: skewX(-45deg);
+    transition: 0.3s;
+}
+.social-icons-3 a::after {
+    content: "";
+    position: absolute;
+    top: -3px;
+    left: 64px;
+
+    height: 100%;
+    width: 10%;
+    transform: skewY(-45deg);
+    transition: 0.3s;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.portret{
+    float:right;
+    margin: 0px 0px 0px 15px;
+    height: 600px;
+    width: 500px;
+}
+.all{
+    margin: 20px 20px 20px;
+}
+.text2{
+    margin-left: 100px;
+}
+.stroca{
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+.line{
+    width:300px;
+    height: 30px;;
+}
+.button{
+    width: 80px;;
+    height: 40px;;
+}
+.font{
+    height: 300px;
+    margin-top: 600px;
+    width: 1260px;
+    padding: 10px;
+    background: rgb(8, 8, 8);
+}
+.font2{
+    margin-top: 100px;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.text3{
+    color: aliceblue;
+}
+.button2{
+    background-color: black;
+    height: 40px;
+    width: 100px;
+    color: blanchedalmond;
+}
+.table{
+    width: 500px;
+    height: 1000px;
+    float:right;
+}
+.top{
+    margin-top: 100px;
+    margin-left: 100px;
+    width: 400px;
+}
+.button3{
+    height: 70px;
+    width: 400px;
+}
+.last{
+    height: 600px;
+    margin-top: 700px;
+    width: 1260px;
+    padding: 10px;
+    background: url(imaje2.jpg) no-repeat center;
+}
+.text5{
+    margin-top: 300px;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: bisque;
+}
+.lin{
+    text-align: center;
+}
+.stroca2{
+    margin-left: 500px;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+.line2{
+        width:300px;
+        height: 30px;;
+}
+.button4{
+    width: 80px;
+    height: 40px;
+}
